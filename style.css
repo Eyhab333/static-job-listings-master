@@ -206,6 +206,142 @@ ul {
   }
 }
 /*############ for-tablet-portrait-up ##############*/
+@media (min-width: 600px) {
+  body {
+    background: #effafa;
+  }
+  header {
+    height: 156px;
+    width: 100%;
+    background: #5CA5A5;
+    background-image: url(./images/bg-header-desktop.svg);
+    background-size: cover;
+    margin-bottom: 76px;
+  }
+  main {
+    padding-left: 10.3125rem;
+    padding-right: 10.3125rem;
+    padding-bottom: 120px;
+  }
+  main .item + .item {
+    margin-top: 24px;
+  }
+  main .item {
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  main .item .icon {
+    margin-right: 24px;
+    height: 88px;
+    width: 88px;
+  }
+  main .item .first {
+    margin-right: 256px;
+  }
+  main .item .first .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  main .item .first .row1 .company-name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 12px;
+    color: #5ca5a5;
+  }
+  main .item .first .row1 .new {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.107692px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #5ca5a5;
+    border-radius: 12px;
+    height: 24px;
+    width: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 33px;
+  }
+  main .item .first .row1 .featured {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.107692px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #2b3939;
+    border-radius: 12px;
+    height: 24px;
+    width: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+  }
+  main .item .first h1,
+  main .item .first h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #2b3939;
+    margin-top: 9px;
+    margin-bottom: 8px;
+  }
+  main .item .first .row2 {
+    display: flex;
+    align-items: center;
+  }
+  main .item .first .row2 .p1,
+  main .item .first .row2 .p2,
+  main .item .first .row2 .p3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.123077px;
+    color: #7c8f8f;
+  }
+  main .item .first .row2 .p2 {
+    margin-left: 20px;
+  }
+  main .item .first .row2 .p3 {
+    margin-left: 20px;
+  }
+  main .item hr {
+    display: none;
+  }
+  main .item .second {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  main .item .second .role,
+  main .item .second .level,
+  main .item .second .lang-p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.123077px;
+    color: #5ca5a5;
+    border-radius: 4px;
+    background: hsla(180, 29%, 50%, 0.1);
+    padding: 5px 10px 3px 8px;
+    flex-grow: 0;
+  }
+  main .item .second .lang {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
 /*############ for-tablet-landscape-up #############*/
 /*############ for-desktop-up ###########*/
 /*############ for-big-desktop-up ##########*//*# sourceMappingURL=style.css.map */
