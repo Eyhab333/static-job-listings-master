@@ -77,7 +77,7 @@ ul {
   header {
     height: 156px;
     width: 100%;
-    background: #5CA5A5;
+    background: #5ca5a5;
     background-image: url(./images/bg-header-mobile.svg);
     background-size: cover;
     margin-bottom: 56px;
@@ -213,7 +213,7 @@ ul {
   header {
     height: 156px;
     width: 100%;
-    background: #5CA5A5;
+    background: #5ca5a5;
     background-image: url(./images/bg-header-desktop.svg);
     background-size: cover;
     margin-bottom: 76px;
@@ -226,14 +226,24 @@ ul {
   main .item + .item {
     margin-top: 24px;
   }
+  main .border-left {
+    border-left: 5px solid #5ca5a5;
+    border-radius: 100px 0px 0px 100px;
+  }
   main .item {
-    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    padding: 2.1875rem 2.5rem 1.9375rem 2.5rem;
     position: relative;
     background: #ffffff;
     box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
     border-radius: 5px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+  }
+  main .item .icon-and-first {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
   main .item .icon {
     margin-right: 24px;
@@ -241,7 +251,10 @@ ul {
     width: 88px;
   }
   main .item .first {
-    margin-right: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
   }
   main .item .first .row1 {
     display: flex;
@@ -299,6 +312,8 @@ ul {
   main .item .first .row2 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
   }
   main .item .first .row2 .p1,
   main .item .first .row2 .p2,
@@ -309,11 +324,13 @@ ul {
     letter-spacing: -0.123077px;
     color: #7c8f8f;
   }
-  main .item .first .row2 .p2 {
-    margin-left: 20px;
-  }
-  main .item .first .row2 .p3 {
-    margin-left: 20px;
+  main .item .first .row2 .dot {
+    height: 4px;
+    width: 4px;
+    background: #B7C4C4;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-right: 16px;
   }
   main .item hr {
     display: none;
