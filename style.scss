@@ -298,10 +298,11 @@ ul {
           display: flex;
           align-items: center;
           justify-content: flex-start;
+
           .company-name {
             font-weight: 700;
             font-size: 18px;
-            line-height: 12px;
+            line-height: 16px;
             color: #5ca5a5;
           }
 
@@ -364,7 +365,7 @@ ul {
           .p2,
           .p3 {
             font-weight: 500;
-            font-size: 16px;
+            font-size: 18px;
             line-height: 24px;
             letter-spacing: -0.123077px;
             color: #7c8f8f;
